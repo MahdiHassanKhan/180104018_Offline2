@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/progamer2"
+    tools:context=".GamerStat_FourthActivity">
+
+    <TableRow
+        android:id="@+id/titleid"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        >
+        <TextView
+            android:text="Your Details"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/allstatid"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        >
+        <TextView
+            android:text="Name"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            android:paddingLeft="50dp"
+            />
+
+        <TextView
+            android:text="Age"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:text="Country"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Gender"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Win"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:paddingRight="20dp"
+            android:text="Lose"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/showstatid"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tntid"
+            android:text="Name"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            android:paddingLeft="50dp"
+            />
+
+        <TextView
+            android:id="@+id/tatid"
+            android:text="Age"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tctid"
+            android:text="Country"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tgtid"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Gender"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:id="@+id/twtid"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Win"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tltid"
+            android:paddingRight="20dp"
+            android:text="Lose"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            />
+
+
+    </TableRow>
+
+</TableLayout>

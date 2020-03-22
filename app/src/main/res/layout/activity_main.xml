@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guess"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You Ready to"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="150dp"
+        />
+    <Button
+        android:id="@+id/ybid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:textStyle="bold"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="405dp"
+        />
+    <Button
+        android:id="@+id/nbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:textStyle="bold"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="405dp"
+        />
+
+</RelativeLayout>

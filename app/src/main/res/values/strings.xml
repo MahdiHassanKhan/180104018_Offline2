@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Guess to Live</string>
+    <string name="game_details">[Note:- Game is not complete yet, But all 4 layouts are present for offline 2] \nEvery time the gamer starts the game a random number will generate and gamer needs to guess that number. If he/she fails to guess that number it would be considered as a death and if a gamer guesses the random generated number correctly  than he/she is safe. The number changes everytime a gamer stars a new game. So, it may not be possible to win everytime.........</string>
+</resources>

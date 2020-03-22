@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startgame"
+    tools:context=".StartDetails_ThirdActivity">
+
+    <Button
+        android:id="@+id/stgbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start The Game"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_x="270px"
+        android:layout_y="650px"
+        />
+    <Button
+        android:id="@+id/gdbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Details"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_x="310px"
+        android:layout_y="850px"
+        />
+    <Button
+        android:id="@+id/devbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_x="340px"
+        android:layout_y="1050px"
+        />
+    <Button
+        android:id="@+id/statbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Statistics"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_x="265px"
+        android:layout_y="1250px"
+        />
+
+
+</AbsoluteLayout>
